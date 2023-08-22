@@ -44,6 +44,10 @@ desti.forEach((dest) => {
     dest.style.fontWeight = "bold";
   });
 });
+addEventListener("load", (e) => {
+  alert("Tüm sayfa başarıyla yüklendi");
+});
 
-const all = document.window;
-console.log(all);
+addEventListener("resize", (e) => {
+  alert("sayfa genişlik değişti");
+});
